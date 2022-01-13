@@ -1,0 +1,43 @@
+
+.block_mini{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 41px 45px;
+    position: relative; 
+}
+.block_text{
+    font-family: "MullerRegular";
+    font-size: 18px;
+    color: black;
+    line-height: 32px;
+    width: 188px;
+    height: 118px;
+    padding: 10px;
+    position: inherit;
+  
+    
+}
+.block{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 23px;
+    row-gap: 23px;
+    position: absolute;
+    margin-left: 200px;
+    
+}
+.block_img  {
+    margin-bottom: 8px;
+}
+body{
+    /*background-image: url(../img/peria-mazki-tekstura-kartina-maslom.jpg);*/
+    background-size: 1874px;
+     background-color: rgb(184, 183, 183);
+    
+}
